@@ -1,0 +1,12 @@
+<h1 id="heading">Slide Show</h1>
+<div id="container">
+  <img [src]="imgSrc" />
+  <br />
+  <br />
+  <div>
+    <input type="button" value="next" (click)="moveNext()" />
+    <input type="button" value="previous" (click)="movePrev()" />
+    <input type="button" value="start" (click)="startShow()" />
+    <input type="button" value="pause" (click)="stopShow()" />
+  </div>
+</div>

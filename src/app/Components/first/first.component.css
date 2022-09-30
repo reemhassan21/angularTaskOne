@@ -1,0 +1,16 @@
+#input {
+  width: 200px;
+  height: 30px;
+  padding: 5px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+#spanOne {
+  color: rgb(80, 99, 80);
+  font-weight: bold;
+  font-size: 20px;
+}
+#text {
+  font-weight: bold;
+  font-size: 20px;
+}

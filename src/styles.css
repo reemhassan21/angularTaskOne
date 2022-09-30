@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+#container {
+  background-color: rgb(224, 216, 204);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 25px;
+}
+
+input[type="button"] {
+  width: 200px;
+  height: 40px;
+  background-color: rgb(43, 115, 115);
+  color: white;
+  border: 1px wheat solid;
+  font-weight: bold;
+  font-size: 15px;
+}
+#heading {
+  background-color: rgb(43, 115, 115);
+  padding: 10px;
+  text-align: center;
+  color: white;
+  border-radius: 25px;
+}

@@ -1,0 +1,19 @@
+<h1 id="heading">Section One</h1>
+<div id="container">
+  <input
+    id="input"
+    type="text"
+    placeholder="Enter you text"
+    [(ngModel)]="text"
+  />
+  <br />
+  <div>
+    <span id="spanOne"> You typed: </span>
+    <span id="text">{{ text }}</span>
+  </div>
+  <br />
+  <input type="button" value="Reset" (click)="reset()" />
+</div>
+
+<br />
+<hr />

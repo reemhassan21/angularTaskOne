@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "task1": {
+    "angularTaskOne": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -17,18 +17,13 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/task1",
+            "outputPath": "dist/angularTaskOne",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
-            "styles": [
-              "src/styles.css"
-            ],
+            "assets": ["src/favicon.ico", "src/assets"],
+            "styles": ["src/styles.css"],
             "scripts": []
           },
           "configurations": {
@@ -71,7 +66,7 @@
               "browserTarget": "task1:build:production"
             },
             "development": {
-              "browserTarget": "task1:build:development"
+              "browserTarget": "angularTaskOne:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +74,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "task1:build"
+            "browserTarget": "angularTaskOne:build"
           }
         },
         "test": {
@@ -89,18 +84,13 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
-            "styles": [
-              "src/styles.css"
-            ],
+            "assets": ["src/favicon.ico", "src/assets"],
+            "styles": ["src/styles.css"],
             "scripts": []
           }
         }
       }
     }
   },
-  "defaultProject": "task1"
+  "defaultProject": "angularTaskOne"
 }
